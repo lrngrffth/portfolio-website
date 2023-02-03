@@ -30,6 +30,11 @@ a {
   cursor: pointer;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 
 .site-name {
   font-family: 'Qwitcher Grypen', cursive;
@@ -39,6 +44,12 @@ a {
 .header {
   min-width: 75vw;
   text-align: center;
+}
+
+.Education {
+  text-align: left;
+  font-size: calc(10px + 1vmin);
+  min-width: 75vw;
 }
 
 .pages {
@@ -101,11 +112,13 @@ img.welcome {
   max-width: 50vw;
 }
 
-.major-info {
+.info_block {
   background-color: white;
   border-width: 1px;
   border-style: solid;
   border-color: var(--dark-brown);
+  position: relative;
+  padding-left: 10px;
 }
 
 .current-page {
@@ -126,4 +139,13 @@ img.welcome {
 img.books-gif {
   width: 5vw;
   height: 5vw;
+}
+
+.School_logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30%;
+  padding-top: 10px;
+  padding-right: 10px;
 }

@@ -14,7 +14,7 @@ function App() {
         <div className="my-info">
           <img className="welcome" src={welcome} alt="welcome gif" />
           <p>Welcome to my page! My name is Lauren and I am a third year undergraduate student at OSU, feel free to explore to learn more about me and view some of my projects.</p>
-          <div className='major-info'><p>The Ohio State University: Main campus
+          <div className='info_block'><p>The Ohio State University: Main campus
             Computer Science and Engineering Major- Information and Computation Assurance Specialization
             </p><p>Aviation - Social and Behavioral Science Minor</p></div>
           <p>My Github: {<a href="https://github.com/lrngrffth">https://github.com/lrngrffth </a>}</p>

@@ -1,38 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Qwitcher+Grypen&family=Titillium+Web:wght@300;600&display=swap');
+
+:root {
+  --very-light-brown: #FFF4EC;
+  --light-brown: rgba(161, 118, 78, .35);
+  --medium-brown: #846344;
+  --dark-brown: #6A3D13;
+  --pink: #E0A2A2;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: var(--very-light-brown);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-y: auto;
+  padding-bottom: 10vh;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  color: var(--medium-brown);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+a {
+  color: var(--pink);
+  cursor: pointer;
+}
+
+
+.site-name {
+  font-family: 'Qwitcher Grypen', cursive;
+  color: var(--medium-brown)
+}
+
+.header {
+  min-width: 75vw;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  min-width: inherit;
+}
+
+.block {
+  min-width: inherit;
+  background-color: var(--light-brown);
+  height: 15px;
+}
+
+.page-links {
+  color: var(--medium-brown);
+  font-size: calc(10px + 2vmin);
+  font-weight: 300;
+  font-family: 'Titillium Web', sans-serif;
+  cursor: pointer
+}
+
+.page-links:hover {
+  color: var(--light-brown);
+}
+
+.page-links:active {
+  color: var(--dark-brown);
+}
+
+img.headshot {
+  grid-column: 2;
+  width: calc(50vh + 10px);
+  height: calc(50v + 10px);
+  box-shadow: 20px 20px var(--light-brown);
+  margin-right: 10vw;
+}
+
+img.welcome {
+  width: 30vh;
+  height: 15vh;
+  background-color: var(--light-brown);
+  border-radius: 25%;
+  justify-self: center;
+}
+
+.cover-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  margin-top: 5vh;
+  min-width: 100vw;
+  margin-left: 5vw;
+}
+
+.my-info {
+  grid-column: 1;
+  max-height: 50vh;
+  max-width: 50vw;
+}
+
+.major-info {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--dark-brown);
+}
+
+.current-page {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: calc(10px + 2vmin);
+  color: var(--medium-brown);
+}
+
+
+.page-header {
+  font-family: 'Anek Telugu', sans-serif;
+  font-weight: 300;
+  font-size: calc(10px + 2vmin);
+  color: var(--medium-brown);
+}
+
+img.books-gif {
+  width: 5vw;
+  height: 5vw;
 }

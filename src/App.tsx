@@ -6,7 +6,7 @@ import Education from './Education';
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Routes>
         <Route path="" element={<AboutMe/>}/>
         <Route path="Education" element={<Education/>}/>

@@ -46,7 +46,7 @@ ul {
   text-align: center;
 }
 
-.Education {
+.information {
   text-align: left;
   font-size: calc(10px + 1vmin);
   min-width: 75vw;
@@ -136,9 +136,16 @@ img.welcome {
   color: var(--medium-brown);
 }
 
-img.books-gif {
+img.books-gif{
   width: 5vw;
   height: 5vw;
+  vertical-align: middle;
+}
+
+img.work-gif {
+  width: 10vw;
+  height: 10vw;
+  vertical-align: middle;
 }
 
 .School_logo {

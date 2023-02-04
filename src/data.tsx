@@ -1,6 +1,6 @@
-import osu from './osu.png';
-import sundownder_logo from './sundowner_logo.png';
-import pick_north from './picknorth_logo.jpeg';
+import osu from './images/osu.png';
+import sundownder_logo from './images/sundowner_logo.png';
+import pick_north from './images/picknorth_logo.jpeg';
 
 interface School {
     name: string;

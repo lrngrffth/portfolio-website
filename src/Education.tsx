@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './header';
-import books from './books.gif';
+import books from './images/books.gif';
 import { education } from './data';
 import EducationBlock from './EducationBlock'
 

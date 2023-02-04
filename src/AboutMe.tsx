@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './header';
-import headshot from './headshot.png'
-import welcome from './welcome.gif'
+import headshot from './images/headshot.png'
+import welcome from './images/welcome.gif'
 
 function App() {
   return (

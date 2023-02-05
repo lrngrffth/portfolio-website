@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Qwitcher+Grypen&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Qwitcher+Grypen&family=Roboto+Mono:wght@300&family=Titillium+Web:wght@300;600&display=swap');
 
 :root {
   --very-light-brown: #FFF4EC;
@@ -18,6 +18,12 @@
   font-size: calc(10px + 2vmin);
   overflow-y: auto;
   padding-bottom: 10vh;
+}
+
+h2 {
+  font-family: 'Anek Telugu', sans-serif;
+  font-weight: 300;
+  color: var(--medium-brown);
 }
 
 p {
@@ -49,7 +55,7 @@ ul {
 .information {
   text-align: left;
   font-size: calc(10px + 1vmin);
-  min-width: 75vw;
+  width: 75%;
 }
 
 .pages {
@@ -130,10 +136,7 @@ img.welcome {
 
 
 .page-header {
-  font-family: 'Anek Telugu', sans-serif;
-  font-weight: 300;
   font-size: calc(10px + 2vmin);
-  color: var(--medium-brown);
 }
 
 img.books-gif{
@@ -155,4 +158,35 @@ img.work-gif {
   width: 30%;
   padding-top: 10px;
   padding-right: 10px;
+}
+
+.experience-layout {
+  display: grid;
+  grid-template-columns: auto 20%;
+  column-gap: 5%;
+}
+
+.experiences {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+
+.tech_block {
+  grid-column-start: 2;
+  background-color: var(--medium-brown);
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 25px;
+}
+
+.tech_block ul {
+  list-style-type: circle;
+  color: white;
+}
+
+.tech_block p {
+  color:white;
 }

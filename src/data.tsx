@@ -2,6 +2,8 @@ import osu from './images/osu.png';
 import sundownder_logo from './images/sundowner_logo.png';
 import pick_north from './images/picknorth_logo.jpeg';
 import ats_poster from './images/ats-poster.png';
+import selfcare from './images/selfcare_social.png';
+import commuter_lounge from './images/com_lounge_post.jpg';
 
 
 interface School {
@@ -27,9 +29,12 @@ interface Job {
     projects?: Project[];
 }
 
+
+
 var education: School[];
 var technical_experience: string[];
 var job_experience: Job[];
+var leadership_experience: Job[];
 
 education = [{name: "The Ohio State University", location: "Columbus, Ohio", 
     additional_info: ["B.S. Computer Science and Engineering", "Specialization in Information and Computation Assurance", "Minor in Aviation-Social and Behavioral Science", "Expected Graduation: May 2024", "Overall GPA (4.00 scale): 3.825"],
@@ -66,6 +71,27 @@ job_experience = [{organization: "Nationwide Children's Hospital: Computational 
     {organization: "The Ohio State University", location: "Columbus, OH", job_title: "Student Instructional Assistant", dates: "(January 2022 - May 2022", additional_info: ["- Attended labs and supported the professor in answering any questions.", "- Assisted students with questions about labs, projects and general concept questions",
     "- Assisted students in weekly office hours, personal appointments and through e-mail.", "- Graded and returned feedback for homeworks and projects each week."]}]
 
-export { education, technical_experience, job_experience };
+
+leadership_experience = [{organization: "The Ohio State University, Society of Women Engineers", location: "Columbus, OH",
+    job_title: "Regional Transfer and Commuter Student Chair", dates: "(January 2022 - present", additional_info: ["Being a regeional, transfer or commuter student can lead to unique problems that other students don't face." +
+    " As a commuter for the past 3 years I've experience many of these issues and can understand what other students are facing as well.", "While RTC students make up a small portion of the student body, the number of students in these categories has increased since the start of the pandemic. However fewer resources and a lack of awareness" + 
+    " of those that are available remain.", "Our goal is to help RTC students feel more welcomed and involved in SWE and to help support and advocate for their needs in their academics, career, social life, and personal safety.",
+    "My job consists of advocating for RTC student needs, keeping track of feedback, communicating and collaborating with other organizations and planning events: creating budget plans, deciding on dates and locations, creating informational posters and RSVP forms, adding the event information to the SWE newsletter,"+ 
+    "handling outreach, speaking in meetings, hosting the event and documenting its performance."], projects: [{name: "Self Care Social", goals: ["School can be stressful and it's important to take time for selfcare, students can take this time to learn tools to relax and deal with exam stress.", "We want to build a community between the RTC students and a social is a light hearted way to meet people."], 
+    additional_info: ["We wanted to plan a self care event that focused more on mental health than surface level self care items to help students learn more healthy ways to do self care, so we focused on activities that involved self reflection and stress reduction.",
+    "In past events we faced issues with attendence when the event was one that required attendance during the entire time span, so we planned on making a more accessible layout that allowed students to come and go as they please. Because of this"+
+    "We decided we stations with multiple options would be the best idea to allow students to come and go when they needed to. We chose to include 3 stations: A create your own bullet journal station (including gratitude, mindfulness, goal setting, mood tracking, bookshelf tracking and self reflection prompts)" +
+    " a gratitude jar station, and a clay modeling station as a creative outlet. We also chose to keep these stations close together to promote socialization between those at different stations.", 
+    "Additional elements were included such as a 'leave a note take a note' wall, soothing music and rain sounds, a snack station and a raffle."], images: [selfcare]}, {name: "Commuter Lounge", goals: ["This was one of the largest and most successful projects I have worked on in this position, and required a lot of outside help.", "There are very few places for commuters to go throughout the school day,"+
+    "those who have classes spaced out, or an online class in between two in person classes, need to find a place to go. Often cafe and library tables are full and it is almost impossible to find a place to charge your computer. In addition to this, many places to get food are out of the way of classes and can be very expensive to order from everyday.", "While there is a"+
+    " commuter lounge in the Union, this is a 10-15 minute (one way) walk from the engineering campus and there are often non-commuter using its resources.",
+    "We wanted to create a space for engineering commuters to use that would close to classes, open only to them, and offer storage, lounging and charging space when they couldn't find it else where."], additional_info: ["I started working this project in February 2022 when we were made aware that the Office of Diversity, Outreach and Inclusion (DOI) may have an empty space on campus. While this information"+
+    " was not fully correct, as the DOI office had a plan for the space, after our inquiry they began looking for space we could use for a loung. Finding permanant space on campus is extremely difficult" +
+    " as there are so many majors and organizations that are looking for space. After a couple of months the DOI office found what used to be a closet in Hitchcock that was not being used and we were able to move forward with the project.",
+    "At this point we held multiple meetings about student needs, what would be possible and timelines before sending out surveys to show student interest. I created this survey for the DOI office who dispersed the survey and discussed the results with the Dean to recieve the ok to continue and the budget.",
+    "After months of planning we had a soft opening for the room in October and a hard opening in January. The final room included swipe access, a cork board, refridgerator/freezer and microwave, a table and chairs, a couch, lockers, outlets, cleaning supplies and a white board. In addition to this, students can now checkout phone chargers, an emergency car kit, and a lock for the locker."],
+    images: [commuter_lounge]}]}]
+
+export { education, technical_experience, job_experience, leadership_experience };
 export type { School, Job};
 

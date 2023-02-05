@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './header';
 import work from './images/work.gif';
-import { job_experience } from './data';
+import { job_experience, leadership_experience } from './data';
 import ExperienceBlock from './ExperienceBlock'
 import TechExpBlock from './TechExpBlock';
 
@@ -21,6 +21,11 @@ function Experience() {
               <hr></hr>
               <ul>
                 {job_experience.map((Job => <li>{ExperienceBlock(Job)}</li>))}
+              </ul>
+              <h2>Leadership Experience</h2>
+              <hr></hr>
+              <ul>
+                {leadership_experience.map((Job => <li>{ExperienceBlock(Job)}</li>))}
               </ul>
             </div>
             <TechExpBlock/>

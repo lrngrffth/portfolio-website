@@ -14,7 +14,7 @@ function Education() {
         <div className='page-header'><h2>My Education  {<img className="books-gif" src={books} alt="book stack gif" />}</h2></div>
         <div className="information">
           <ul>
-            {education.map((School => <li>{EducationBlock(School.name, School.location, School.additional_info, School.icon)}</li>))}
+            {education.map((School => <li>{EducationBlock(School)}</li>))}
           </ul>
         </div>
     </div>

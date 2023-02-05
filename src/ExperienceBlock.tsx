@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
+import { Job } from './data'
 
-function ExperienceBlock(organization: string, location: string, job_title: string, dates: string, additional_info: string[]) {
+function ExperienceBlock(job: Job) {
   return (
     <div className='info_block'>
-        <p>{organization}, {location}</p>
-        <p><strong>{job_title}</strong> {dates}</p>
+        <p>{job.organization}, {job.location}</p>
+        <p><strong>{job.job_title}</strong> {job.dates}</p>
         <ul>
-            {additional_info.map((item => <li><p>{item}</p></li>))}
+            {job.additional_info.map((item => <li><p>{item}</p></li>))}
         </ul>
         
     </div>  

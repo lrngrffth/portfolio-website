@@ -41,6 +41,9 @@ ul {
   padding-left: 0;
 }
 
+li {
+  margin-top: 10px;
+}
 
 .site-name {
   font-family: 'Qwitcher Grypen', cursive;

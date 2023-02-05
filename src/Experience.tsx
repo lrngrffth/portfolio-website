@@ -6,6 +6,7 @@ import { job_experience } from './data';
 import ExperienceBlock from './ExperienceBlock'
 import TechExpBlock from './TechExpBlock';
 
+
 function Experience() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function Experience() {
               <h2>Job Experience</h2>
               <hr></hr>
               <ul>
-                {job_experience.map((Job => <li>{ExperienceBlock(Job.organization, Job.location, Job.job_title, Job.dates, Job.additional_info)}</li>))}
+                {job_experience.map((Job => <li>{ExperienceBlock(Job)}</li>))}
               </ul>
             </div>
             <TechExpBlock/>

@@ -10,7 +10,7 @@ function Education() {
     <div className="App">
       <h1 className="site-name">Lauren Griffith</h1>
       <Header 
-        currentPage='education'/>
+        currentPage='Education'/>
         <div className='page-header'><h2>My Education  {<img className="books-gif" src={books} alt="book stack gif" />}</h2></div>
         <div className="information">
           <ul>

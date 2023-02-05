@@ -12,7 +12,7 @@ function Experience() {
     <div className="App">
       <h1 className="site-name">Lauren Griffith</h1>
       <Header 
-        currentPage='experience'/>
+        currentPage='Experience'/>
         <div className='page-header'><h2>Experience{<img className="work-gif" src={work} alt="computer 'work in progress' gif" />}</h2></div>
         <div className="information">
           <div className="experience-layout">

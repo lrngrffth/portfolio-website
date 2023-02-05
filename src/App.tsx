@@ -10,8 +10,8 @@ function App() {
     <Router basename={window.location.pathname || ''}>
       <Routes>
         <Route path="" element={<AboutMe/>}/>
-        <Route path="Education" element={<Education/>}/>
-        <Route path="Experience" element={<Experience/>}/>
+        <Route path="education" element={<Education/>}/>
+        <Route path="experience" element={<Experience/>}/>
       </Routes>
     </Router>
   );

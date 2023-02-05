@@ -37,7 +37,7 @@ function Header({currentPage}: {currentPage: string}) {
         <h3 className={aboutMe} onClick={() => navigate("/")}>About Me</h3>
         <h3 className={education} onClick={() => navigate("/education")}>Education</h3>
         <h3 className={experience} onClick={() => navigate("/experience")}>Experience</h3>
-        <h3 className={extracurr}>Extracurriculars</h3>
+        <h3 className={extracurr} onClick={() => navigate("/extracurriculars")}>Extracurriculars</h3>
       </div>
       <div className='block'/>
     </div>

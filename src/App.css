@@ -154,6 +154,12 @@ img.work-gif {
   vertical-align: middle;
 }
 
+img.extra-gif {
+  width: 10vw;
+  height: 10vw;
+  vertical-align: middle;
+}
+
 .School_logo {
   position: absolute;
   top: 0px;

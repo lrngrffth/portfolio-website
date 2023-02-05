@@ -193,3 +193,13 @@ img.work-gif {
 .tech_block p {
   color:white;
 }
+
+.view-more {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image{
+  max-width: 100%;
+}

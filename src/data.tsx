@@ -4,6 +4,8 @@ import pick_north from './images/picknorth_logo.jpeg';
 import ats_poster from './images/ats-poster.png';
 import selfcare from './images/selfcare_social.png';
 import commuter_lounge from './images/com_lounge_post.jpg';
+import carkit1 from './images/carkit1.jpg';
+import carkit2 from './images/carkit2.jpg';
 
 
 interface School {
@@ -90,7 +92,14 @@ leadership_experience = [{organization: "The Ohio State University, Society of W
     " as there are so many majors and organizations that are looking for space. After a couple of months the DOI office found what used to be a closet in Hitchcock that was not being used and we were able to move forward with the project.",
     "At this point we held multiple meetings about student needs, what would be possible and timelines before sending out surveys to show student interest. I created this survey for the DOI office who dispersed the survey and discussed the results with the Dean to recieve the ok to continue and the budget.",
     "After months of planning we had a soft opening for the room in October and a hard opening in January. The final room included swipe access, a cork board, refridgerator/freezer and microwave, a table and chairs, a couch, lockers, outlets, cleaning supplies and a white board. In addition to this, students can now checkout phone chargers, an emergency car kit, and a lock for the locker."],
-    images: [commuter_lounge]}]}]
+    images: [commuter_lounge]}, {name: "Regional Student Organization Collaboration", goals: ["This project is still in the process of being planned.","Regional Students make up a small percentage of SWE attendees due to many meetings being scheduled late, transportation issues, and lack of awareness of SWE events being available to regional students. Our goal is to raise" +
+    " of SWE and what we do to regional students, while supporting student organizations that already exist on their campuses."], additional_info: ["We reached out to student organizations with similar values in the regional campuses to see who would be interested in collaborating with SWE."+
+    "After receiving a response from the Engineering Club (part of the Marion campus) we scheduled a meeting with their advisor to discuss how we could collaborate further, at which point an info session was decided upon, and informational slides about SWE were dispersed to those who were interest."]}, {name: "Car Safety Kit event and Social", goals: ["Car safety and emergency kits can be expensive but are very important"+
+    " to carry when one is traveling everyday. Since many students may not have the time or money to create or buy a kit we felt that students would both enjoy and benefit from recieving safety kits."], additional_info: ["I have planned two car safety kit events for SWE, the first of which was one of our most successful RTC events yet.", "For the first car safety kit event we attempted to collaborate with off-campus"+
+    "resources, however they could not help, so we had to keep a tight budget. First we decided to hold a pickup event instead of a social as it was finals season, and we limited our number of recipients to 10 to fit the budget while supplying a thourough safety kit. After recieving the budget from the treasurer"+
+    " and deciding on the even layout, I researched what would normally be included in a car kit and compared prices between buying premade kits and packing them together ourselves. In the end we decided to assemble them ourselves and handed out 10 kits that included: an 85 piece first aid kit, tylenol packets,"+
+    " 2 emergency blankets, a car escape tool/seat bealt cutter, duct tape, 2 rain ponchos, a 'period pack', jumper cables, a flashlight with batteries, handwipes, the container, and an emergency numbers card.", "After the first car safety kit event some of those who went expressed that it helped them in a situation that they would have otherwise been unprepaired for, such as helping a man who had fallen in the parking garage.",
+    " For the second car safety event we chose to combine the pickup with a social to introduce commuters to one another. As our first event was so successful we were also able to recieve OSU branded kits from the off-campus and commuter services office in addition to personal birdie alarms."], images: [carkit1, carkit2]}]}]
 
 export { education, technical_experience, job_experience, leadership_experience };
 export type { School, Job};

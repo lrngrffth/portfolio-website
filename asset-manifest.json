@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.cbcf999e.css",
-    "main.js": "/portfolio-website/static/js/main.a72f4afd.js",
+    "main.js": "/portfolio-website/static/js/main.76f7e863.js",
     "static/js/787.bbe01249.chunk.js": "/portfolio-website/static/js/787.bbe01249.chunk.js",
     "static/media/headshot.png": "/portfolio-website/static/media/headshot.ed2ffc60e89d9d2e5b92.png",
+    "static/media/carkit2.jpg": "/portfolio-website/static/media/carkit2.f3a42882a6a244897e65.jpg",
     "static/media/ats-poster.png": "/portfolio-website/static/media/ats-poster.04831418a53ca75a2975.png",
+    "static/media/carkit1.jpg": "/portfolio-website/static/media/carkit1.e8858cf428bd6e7a8a26.jpg",
     "static/media/selfcare_social.png": "/portfolio-website/static/media/selfcare_social.2d0b57def0827dc55d5c.png",
     "static/media/com_lounge_post.jpg": "/portfolio-website/static/media/com_lounge_post.6be7850effec1cbde7b1.jpg",
     "static/media/books.gif": "/portfolio-website/static/media/books.b4c90af474ee0c76bbdc.gif",
@@ -15,11 +17,11 @@
     "static/media/osu.png": "/portfolio-website/static/media/osu.9b36d82124eeabfd9880.png",
     "index.html": "/portfolio-website/index.html",
     "main.cbcf999e.css.map": "/portfolio-website/static/css/main.cbcf999e.css.map",
-    "main.a72f4afd.js.map": "/portfolio-website/static/js/main.a72f4afd.js.map",
+    "main.76f7e863.js.map": "/portfolio-website/static/js/main.76f7e863.js.map",
     "787.bbe01249.chunk.js.map": "/portfolio-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbcf999e.css",
-    "static/js/main.a72f4afd.js"
+    "static/js/main.76f7e863.js"
   ]
 }
